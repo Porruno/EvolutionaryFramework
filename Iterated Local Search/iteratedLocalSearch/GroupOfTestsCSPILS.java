@@ -72,8 +72,6 @@ public class GroupOfTestsCSPILS {
     
     public static void main(String[] args){
         
-        
-        
         cspInstance0.saveToFile("instanceCSP00.xml");
         cspInstance1.saveToFile("instanceCSP01.xml");
         cspInstance2.saveToFile("instanceCSP02.xml");
@@ -117,7 +115,7 @@ public class GroupOfTestsCSPILS {
         cspTests.graph();
         System.out.println(cspTests.getTestResultAtIndex(0).getBestGenomeOfAllRuns().getAptitude());
         System.out.println(cspTests.getTestResultAtIndex(1).getBestGenomeOfAllRuns().getAptitude());
-        
+       
         CSP csp = new CSP(cspInstance0);
         GACSPSolver solver = new GACSPSolver(csp, cspTests.getTestResultAtIndex(0).getBestGenomeOfAllRuns());
         Variable[] variables = solver.solve(ValueOrderingHeuristics.MNC, ConstraintOrderingHeuristics.NONE);
