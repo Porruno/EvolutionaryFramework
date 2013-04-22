@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<instance>
+<presentation maxConstraintArity="2" format="XCSP 2.1" type="CSP"/>
+
+<domains nbDomains="20">
+<domain name="D0" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D1" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D2" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D3" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D4" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D5" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D6" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D7" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D8" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D9" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D10" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D11" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D12" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D13" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D14" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D15" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D16" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D17" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D18" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D19" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+</domains>
+
+<variables nbVariables="20">
+<variable name="V0" domain="D0"/>
+<variable name="V1" domain="D1"/>
+<variable name="V2" domain="D2"/>
+<variable name="V3" domain="D3"/>
+<variable name="V4" domain="D4"/>
+<variable name="V5" domain="D5"/>
+<variable name="V6" domain="D6"/>
+<variable name="V7" domain="D7"/>
+<variable name="V8" domain="D8"/>
+<variable name="V9" domain="D9"/>
+<variable name="V10" domain="D10"/>
+<variable name="V11" domain="D11"/>
+<variable name="V12" domain="D12"/>
+<variable name="V13" domain="D13"/>
+<variable name="V14" domain="D14"/>
+<variable name="V15" domain="D15"/>
+<variable name="V16" domain="D16"/>
+<variable name="V17" domain="D17"/>
+<variable name="V18" domain="D18"/>
+<variable name="V19" domain="D19"/>
+</variables>
+
+<relations nbRelations="10">
+<relation name="R0" arity="2" nbTuples = "5" semantics="conflicts">1 0|6 9|6 5|4 0|9 6</relation>
+<relation name="R1" arity="2" nbTuples = "5" semantics="conflicts">5 4|6 3|5 8|3 4|8 1</relation>
+<relation name="R2" arity="2" nbTuples = "5" semantics="conflicts">9 2|4 1|0 5|9 0|3 8</relation>
+<relation name="R3" arity="2" nbTuples = "5" semantics="conflicts">0 2|6 9|9 5|3 7|9 1</relation>
+<relation name="R4" arity="2" nbTuples = "5" semantics="conflicts">3 5|9 5|8 9|5 4|6 8</relation>
+<relation name="R5" arity="2" nbTuples = "5" semantics="conflicts">7 5|7 8|7 4|1 2|1 0</relation>
+<relation name="R6" arity="2" nbTuples = "5" semantics="conflicts">4 0|9 0|7 6|5 6|9 5</relation>
+<relation name="R7" arity="2" nbTuples = "5" semantics="conflicts">6 1|9 3|0 2|7 3|7 7</relation>
+<relation name="R8" arity="2" nbTuples = "5" semantics="conflicts">4 2|2 0|3 7|1 4|2 9</relation>
+<relation name="R9" arity="2" nbTuples = "5" semantics="conflicts">1 7|9 6|8 0|5 2|6 9</relation>
+</relations>
+
+<constraints nbConstraints="10">
+<constraint name="C122" arity="2" scope = "V7 V18" reference="R0"/>
+<constraint name="C164" arity="2" scope = "V12 V15" reference="R1"/>
+<constraint name="C2" arity="2" scope = "V0 V3" reference="R2"/>
+<constraint name="C66" arity="2" scope = "V3 V16" reference="R3"/>
+<constraint name="C43" arity="2" scope = "V2 V9" reference="R4"/>
+<constraint name="C94" arity="2" scope = "V5 V15" reference="R5"/>
+<constraint name="C58" arity="2" scope = "V3 V8" reference="R6"/>
+<constraint name="C162" arity="2" scope = "V12 V13" reference="R7"/>
+<constraint name="C169" arity="2" scope = "V13 V14" reference="R8"/>
+<constraint name="C60" arity="2" scope = "V3 V10" reference="R9"/>
+</constraints>
+</instance>

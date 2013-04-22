@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<instance>
+<presentation maxConstraintArity="2" format="XCSP 2.1" type="CSP"/>
+
+<domains nbDomains="20">
+<domain name="D0" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D1" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D2" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D3" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D4" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D5" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D6" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D7" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D8" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D9" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D10" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D11" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D12" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D13" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D14" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D15" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D16" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D17" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D18" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+<domain name="D19" nbValues="10">0 1 2 3 4 5 6 7 8 9</domain>
+</domains>
+
+<variables nbVariables="20">
+<variable name="V0" domain="D0"/>
+<variable name="V1" domain="D1"/>
+<variable name="V2" domain="D2"/>
+<variable name="V3" domain="D3"/>
+<variable name="V4" domain="D4"/>
+<variable name="V5" domain="D5"/>
+<variable name="V6" domain="D6"/>
+<variable name="V7" domain="D7"/>
+<variable name="V8" domain="D8"/>
+<variable name="V9" domain="D9"/>
+<variable name="V10" domain="D10"/>
+<variable name="V11" domain="D11"/>
+<variable name="V12" domain="D12"/>
+<variable name="V13" domain="D13"/>
+<variable name="V14" domain="D14"/>
+<variable name="V15" domain="D15"/>
+<variable name="V16" domain="D16"/>
+<variable name="V17" domain="D17"/>
+<variable name="V18" domain="D18"/>
+<variable name="V19" domain="D19"/>
+</variables>
+
+<relations nbRelations="76">
+<relation name="R0" arity="2" nbTuples = "40" semantics="conflicts">5 2|1 4|2 4|0 1|0 3|2 2|1 5|6 5|1 6|2 8|5 9|3 8|7 2|0 9|6 2|5 5|0 4|5 4|7 8|7 9|0 2|0 0|1 0|0 8|4 9|8 5|8 6|6 8|5 1|8 9|4 2|4 7|9 2|7 3|1 3|8 7|9 1|7 0|9 8|2 3</relation>
+<relation name="R1" arity="2" nbTuples = "40" semantics="conflicts">0 2|5 5|2 2|5 9|3 6|1 3|2 7|0 7|6 7|3 7|5 0|2 3|7 1|7 3|1 4|5 2|7 6|4 2|0 8|4 7|8 0|3 1|8 2|8 3|1 7|4 8|1 8|8 7|7 9|2 6|5 3|1 5|9 2|3 2|9 4|3 9|9 6|0 9|4 9|9 9</relation>
+<relation name="R2" arity="2" nbTuples = "40" semantics="conflicts">2 3|4 4|0 0|4 7|1 9|3 6|1 4|6 7|3 8|4 5|2 4|3 7|0 5|1 3|3 3|0 1|7 3|7 6|5 2|6 9|6 0|2 6|8 2|8 3|8 4|1 7|8 6|0 6|7 5|7 7|9 0|9 1|1 0|9 3|5 7|1 1|8 5|1 2|9 8|9 9</relation>
+<relation name="R3" arity="2" nbTuples = "40" semantics="conflicts">1 6|4 1|3 8|1 2|3 0|4 8|6 6|1 1|0 4|6 9|7 0|1 4|2 1|2 9|7 4|6 8|5 1|5 7|0 9|7 6|8 0|1 7|8 2|0 5|5 5|1 0|2 5|8 7|7 5|3 7|9 0|9 1|5 4|9 3|4 0|9 5|9 2|3 5|2 7|9 9</relation>
+<relation name="R4" arity="2" nbTuples = "40" semantics="conflicts">4 9|3 8|2 3|1 1|5 3|2 5|4 8|1 4|6 8|5 7|4 7|5 5|6 7|6 1|5 6|1 2|0 5|7 7|7 8|4 1|4 0|8 1|8 2|4 2|8 4|4 5|2 4|0 6|8 8|8 9|2 7|3 3|9 2|7 1|8 5|9 1|9 6|9 7|9 8|3 0</relation>
+<relation name="R5" arity="2" nbTuples = "40" semantics="conflicts">5 4|1 6|0 5|2 3|0 0|0 1|1 8|5 7|2 5|4 6|0 7|2 8|7 2|2 9|4 8|7 1|3 1|1 9|5 2|6 4|0 6|3 2|5 9|4 9|8 4|8 5|2 1|2 7|6 5|5 6|9 0|3 5|9 2|0 9|4 2|9 5|9 6|6 0|2 6|3 0</relation>
+<relation name="R6" arity="2" nbTuples = "40" semantics="conflicts">4 6|4 7|1 0|1 7|0 8|3 7|3 4|4 8|0 0|0 9|7 0|1 3|3 6|0 4|7 4|3 5|7 6|5 5|0 6|6 5|3 2|8 1|8 2|6 0|3 0|8 5|8 6|2 7|8 8|8 9|7 2|3 8|9 2|9 3|9 4|9 5|9 6|4 9|9 8|3 1</relation>
+<relation name="R7" arity="2" nbTuples = "40" semantics="conflicts">1 3|5 3|5 4|6 3|0 1|2 8|1 8|6 7|0 6|1 6|6 5|4 6|3 5|4 8|4 5|7 5|1 7|2 7|5 7|6 9|7 0|2 9|7 4|3 1|8 4|3 2|4 0|8 2|8 8|0 7|6 2|5 1|1 2|9 3|2 3|9 5|9 6|9 7|9 8|5 2</relation>
+<relation name="R8" arity="2" nbTuples = "40" semantics="conflicts">4 9|6 1|0 6|2 8|5 9|5 8|5 3|5 0|3 3|4 3|4 0|2 5|4 7|0 8|6 9|4 5|7 6|7 7|7 8|6 5|0 7|8 1|3 7|8 0|5 2|8 5|8 6|8 4|0 4|8 9|9 0|8 8|6 0|3 2|2 2|9 5|5 4|0 5|4 6|0 3</relation>
+<relation name="R9" arity="2" nbTuples = "40" semantics="conflicts">5 5|2 8|2 7|3 8|5 7|0 8|4 6|2 0|5 9|4 3|6 8|7 1|0 0|2 5|5 4|6 7|1 1|1 2|1 0|7 9|8 0|0 2|3 3|8 3|1 6|8 5|1 3|8 4|8 8|8 9|9 0|9 1|3 7|9 3|4 5|3 2|9 6|9 7|5 2|3 1</relation>
+<relation name="R10" arity="2" nbTuples = "40" semantics="conflicts">4 0|3 1|1 4|4 9|4 3|6 0|6 6|3 4|5 0|0 1|7 0|1 6|2 4|2 7|5 7|1 1|5 1|1 8|7 8|7 9|5 2|8 1|3 3|2 6|8 4|6 2|8 3|1 5|7 3|8 5|9 0|0 0|9 2|9 3|3 8|3 2|3 5|1 3|3 0|7 1</relation>
+<relation name="R11" arity="2" nbTuples = "40" semantics="conflicts">1 8|4 9|3 2|3 1|6 1|3 8|6 4|0 4|5 5|5 2|7 0|1 3|1 6|7 3|6 3|7 5|4 7|7 7|4 5|2 7|8 0|5 7|1 9|3 3|7 6|8 5|8 6|8 7|8 8|7 4|5 3|9 1|1 5|9 3|5 9|9 5|0 2|1 7|5 4|9 9</relation>
+<relation name="R12" arity="2" nbTuples = "40" semantics="conflicts">2 7|5 1|5 3|2 8|1 9|4 9|4 4|6 7|6 8|6 6|7 0|6 2|2 0|3 1|7 4|2 9|1 5|1 2|0 5|1 4|7 5|3 3|8 2|0 0|8 4|0 9|6 5|1 0|8 8|8 9|2 6|0 8|3 8|4 6|9 4|9 5|9 6|4 1|7 8|9 9</relation>
+<relation name="R13" arity="2" nbTuples = "40" semantics="conflicts">0 4|3 0|4 5|3 5|6 1|0 8|3 2|2 3|5 2|1 4|0 1|7 1|7 2|4 2|2 6|7 5|3 1|7 7|5 0|6 4|0 9|7 0|4 7|3 8|1 2|8 5|4 3|2 1|1 7|3 7|2 9|1 9|5 4|1 3|4 4|9 5|9 6|0 6|2 7|8 4</relation>
+<relation name="R14" arity="2" nbTuples = "40" semantics="conflicts">3 0|5 9|3 8|0 0|6 4|3 1|4 7|1 2|5 0|6 9|7 0|0 5|4 0|3 6|7 4|3 3|7 6|2 0|2 4|7 9|4 1|0 8|8 2|8 3|8 4|8 5|4 4|7 1|2 6|5 4|1 1|9 0|6 1|5 3|1 5|9 5|9 4|6 3|7 5|9 9</relation>
+<relation name="R15" arity="2" nbTuples = "40" semantics="conflicts">0 1|1 1|5 9|3 4|0 5|2 6|6 0|3 5|0 6|6 9|0 7|5 2|3 6|7 3|1 4|4 1|2 1|6 2|1 0|1 9|6 1|0 3|5 6|5 7|6 3|3 0|3 1|8 7|0 8|8 0|3 2|6 4|4 7|7 9|8 8|7 1|9 6|3 3|9 2|9 9</relation>
+<relation name="R16" arity="2" nbTuples = "40" semantics="conflicts">3 2|0 3|2 0|3 6|5 8|5 5|2 3|4 8|6 8|3 7|0 6|4 5|5 0|7 1|7 0|6 3|6 2|0 4|7 8|7 9|4 0|2 8|0 8|8 3|2 5|7 3|0 1|7 5|8 2|2 1|5 1|9 1|7 4|0 5|9 4|1 0|9 6|9 7|9 8|9 9</relation>
+<relation name="R17" arity="2" nbTuples = "40" semantics="conflicts">3 7|4 3|3 3|2 0|4 0|1 4|6 6|1 5|3 8|6 9|3 0|6 8|6 5|7 3|5 1|4 2|2 9|0 8|6 3|4 7|3 6|2 5|8 2|3 9|5 7|7 9|8 6|0 9|7 5|3 2|2 6|2 4|6 4|9 3|2 1|9 5|0 7|5 0|6 2|9 9</relation>
+<relation name="R18" arity="2" nbTuples = "40" semantics="conflicts">3 0|5 4|1 8|0 8|0 7|4 6|4 9|1 7|4 1|4 8|3 8|5 3|0 2|0 0|7 3|4 4|0 6|0 9|7 5|1 0|6 9|8 1|3 5|6 7|8 2|8 5|8 6|6 0|8 3|2 8|3 7|9 1|9 2|4 3|9 4|9 5|6 3|2 7|9 8|9 9</relation>
+<relation name="R19" arity="2" nbTuples = "40" semantics="conflicts">2 1|1 5|0 8|4 4|2 6|1 9|1 0|6 2|3 8|6 3|5 8|7 1|0 0|7 3|4 2|1 6|3 9|7 7|7 0|7 9|7 2|8 1|6 5|0 3|3 2|8 2|8 6|0 2|1 7|0 5|4 9|2 7|4 3|5 1|9 4|8 7|2 4|0 6|9 8|9 3</relation>
+<relation name="R20" arity="2" nbTuples = "40" semantics="conflicts">4 2|3 9|0 9|0 3|5 1|6 0|6 2|0 5|6 5|5 5|4 3|4 0|1 6|1 9|1 8|7 5|7 6|2 2|1 3|0 0|1 2|6 1|2 1|8 3|7 8|8 4|8 5|2 0|4 1|8 9|5 6|5 2|1 4|7 3|7 7|6 3|5 9|9 4|7 9|9 9</relation>
+<relation name="R21" arity="2" nbTuples = "40" semantics="conflicts">4 1|3 7|5 9|0 2|1 5|6 5|5 1|6 4|2 8|6 9|6 3|0 6|7 0|7 3|6 8|7 5|4 3|7 7|7 8|0 0|6 2|2 7|5 8|2 1|8 4|8 5|8 6|2 3|8 8|8 9|5 6|0 7|1 3|4 7|9 4|6 6|1 4|0 1|9 8|4 2</relation>
+<relation name="R22" arity="2" nbTuples = "40" semantics="conflicts">4 7|1 7|0 9|1 1|1 9|3 2|4 8|6 7|4 0|0 3|1 3|5 0|1 5|0 6|7 4|7 5|5 8|4 6|4 2|6 8|6 4|3 8|2 5|5 2|3 7|6 5|8 6|5 5|5 9|2 7|4 9|3 1|1 8|9 3|9 4|3 0|9 6|2 4|3 6|9 9</relation>
+<relation name="R23" arity="2" nbTuples = "40" semantics="conflicts">2 9|5 6|5 0|4 1|6 3|3 4|0 5|0 9|2 5|3 2|5 1|7 1|6 5|2 2|7 3|3 7|7 4|7 5|1 6|3 6|2 6|3 3|8 2|8 3|6 0|1 9|8 6|8 7|8 8|5 7|9 0|8 4|4 2|9 3|7 2|8 5|0 3|9 7|1 5|5 3</relation>
+<relation name="R24" arity="2" nbTuples = "40" semantics="conflicts">2 9|5 9|0 9|1 0|6 0|2 4|1 5|5 0|4 7|2 2|4 8|4 1|1 7|0 2|3 1|7 5|0 3|4 6|5 4|6 1|0 6|5 5|8 0|7 0|8 4|2 3|2 5|8 7|2 1|3 4|2 0|3 6|9 2|4 4|9 4|9 5|9 6|8 6|4 2|9 7</relation>
+<relation name="R25" arity="2" nbTuples = "40" semantics="conflicts">3 1|4 5|0 6|6 3|3 9|4 8|3 6|4 6|0 4|4 9|2 1|3 0|6 9|2 7|0 5|0 0|7 6|1 0|4 3|6 4|8 0|8 1|7 8|1 8|6 7|0 7|4 1|7 9|8 8|8 9|5 6|1 3|5 9|7 5|8 4|7 3|7 4|1 7|9 8|2 8</relation>
+<relation name="R26" arity="2" nbTuples = "40" semantics="conflicts">4 7|2 2|5 1|2 5|1 3|6 5|6 6|4 6|1 8|0 3|1 6|2 8|7 2|7 3|1 9|2 3|6 1|7 7|3 7|5 5|8 0|4 8|8 2|4 3|8 4|0 5|1 7|8 7|4 5|5 3|9 0|9 1|3 6|5 6|9 4|9 5|5 7|9 7|3 2|2 0</relation>
+<relation name="R27" arity="2" nbTuples = "40" semantics="conflicts">4 4|4 9|1 9|5 3|2 9|3 2|4 1|2 3|1 6|2 0|0 8|7 1|0 3|5 6|2 5|7 5|0 7|0 0|4 7|7 6|3 8|8 1|8 2|8 3|8 4|3 9|8 6|8 5|8 8|1 3|4 5|3 1|9 2|2 7|3 7|7 2|2 1|7 4|9 8|9 9</relation>
+<relation name="R28" arity="2" nbTuples = "40" semantics="conflicts">0 5|2 3|3 7|5 7|3 1|4 4|6 6|5 4|6 8|4 6|3 2|0 9|1 4|5 3|2 7|7 5|3 8|7 1|1 5|7 0|4 3|6 9|8 2|1 6|8 4|8 5|5 2|8 7|8 0|2 5|7 4|9 1|7 8|4 9|9 3|9 5|4 2|6 7|5 8|0 8</relation>
+<relation name="R29" arity="2" nbTuples = "40" semantics="conflicts">1 5|5 0|4 9|0 2|2 2|1 2|6 2|2 9|4 4|6 9|7 0|7 1|7 2|7 3|3 3|1 1|5 1|3 9|1 4|7 9|2 5|6 4|6 8|8 3|3 4|8 5|3 5|8 7|8 8|6 1|6 5|0 8|9 2|9 3|9 4|6 7|5 3|6 6|9 0|9 9</relation>
+<relation name="R30" arity="2" nbTuples = "40" semantics="conflicts">1 7|3 1|3 3|4 0|1 2|6 1|0 1|3 5|2 2|3 7|4 3|4 9|3 8|7 3|2 3|2 6|1 0|3 4|7 8|7 2|5 2|7 4|6 2|2 7|2 5|4 6|7 1|5 0|1 6|0 8|7 9|9 1|0 0|5 5|9 4|9 5|4 7|9 7|9 8|4 1</relation>
+<relation name="R31" arity="2" nbTuples = "40" semantics="conflicts">2 9|2 7|2 2|6 3|2 1|0 0|6 6|4 8|5 9|1 1|7 0|1 3|6 5|6 8|7 4|7 5|7 6|2 3|4 3|3 4|0 3|8 1|8 2|8 3|3 7|8 4|7 8|8 7|4 5|6 1|9 0|9 1|0 8|9 3|9 4|4 9|6 2|7 3|9 8|1 6</relation>
+<relation name="R32" arity="2" nbTuples = "40" semantics="conflicts">5 0|3 0|4 2|3 1|1 5|5 9|4 6|6 1|4 3|0 0|0 2|2 8|5 1|7 3|1 4|2 0|2 1|4 9|4 4|0 9|2 3|8 1|7 5|1 2|8 4|6 4|3 9|8 7|8 8|7 0|8 9|3 5|4 7|8 5|9 4|9 5|9 6|6 6|2 4|9 9</relation>
+<relation name="R33" arity="2" nbTuples = "40" semantics="conflicts">2 3|4 0|0 9|1 5|1 2|1 9|2 8|6 7|6 8|4 2|2 4|6 0|7 2|7 3|4 8|5 6|7 6|0 3|4 3|3 5|7 8|8 1|5 1|8 3|0 8|4 7|8 6|8 0|8 7|8 9|9 0|9 1|9 2|0 0|0 1|2 6|9 6|3 7|1 3|9 9</relation>
+<relation name="R34" arity="2" nbTuples = "40" semantics="conflicts">0 4|2 9|5 3|3 6|1 2|3 2|1 5|2 3|4 1|3 0|1 6|2 5|1 0|0 1|5 2|6 7|1 7|0 0|7 5|2 0|8 0|2 8|7 0|8 3|8 4|6 3|2 1|1 1|6 0|8 5|9 0|3 9|5 7|9 3|7 4|3 3|9 6|9 7|4 8|9 9</relation>
+<relation name="R35" arity="2" nbTuples = "40" semantics="conflicts">1 1|5 7|3 6|5 9|5 0|0 7|3 1|3 3|6 8|3 5|3 8|4 2|6 2|3 9|0 2|3 0|4 0|2 6|0 5|7 9|7 0|8 1|8 2|8 3|8 4|8 5|8 6|5 5|0 0|6 5|9 0|1 5|6 4|7 3|9 4|9 5|9 6|9 7|9 8|4 6</relation>
+<relation name="R36" arity="2" nbTuples = "40" semantics="conflicts">3 4|5 8|6 2|2 1|3 7|5 0|2 2|6 1|5 1|3 8|6 0|6 7|0 0|4 7|7 4|1 6|4 6|5 5|6 3|1 7|8 0|3 0|0 9|3 2|8 4|8 5|4 1|2 3|8 8|8 9|5 2|6 6|9 2|9 3|3 9|9 5|9 6|9 7|5 3|7 7</relation>
+<relation name="R37" arity="2" nbTuples = "40" semantics="conflicts">3 2|4 9|3 3|0 5|5 7|2 3|5 2|6 7|1 2|2 4|6 6|7 1|4 6|4 0|7 0|3 5|7 6|3 6|2 6|7 9|2 8|0 8|8 2|4 1|4 7|8 4|7 5|7 2|8 8|5 0|0 3|8 0|9 2|9 3|2 9|5 5|9 6|9 7|9 8|9 9</relation>
+<relation name="R38" arity="2" nbTuples = "40" semantics="conflicts">0 0|0 9|0 6|4 8|3 1|2 3|6 2|6 5|0 3|5 8|0 7|1 1|1 8|4 9|7 4|7 5|5 0|1 9|5 4|0 2|8 0|4 4|8 2|3 5|1 3|2 8|3 4|3 2|5 1|8 9|1 4|1 0|9 2|2 0|3 9|0 5|4 0|9 4|4 2|9 9</relation>
+<relation name="R39" arity="2" nbTuples = "40" semantics="conflicts">4 4|6 0|4 5|1 7|0 4|5 6|4 9|1 6|5 5|0 9|3 4|1 0|0 7|2 7|7 4|1 2|7 6|6 9|7 8|0 5|6 4|7 0|6 7|0 3|0 0|8 5|7 5|0 6|7 2|6 2|9 0|9 1|8 6|4 1|0 2|9 5|3 5|2 0|2 5|4 8</relation>
+<relation name="R40" arity="2" nbTuples = "40" semantics="conflicts">1 5|5 5|2 5|3 3|1 4|4 5|0 9|6 7|1 8|6 9|5 4|0 2|2 7|4 3|5 0|0 5|4 4|2 1|7 7|1 7|8 0|1 9|5 2|7 6|0 0|3 7|8 6|8 2|6 3|1 1|2 4|9 1|9 2|8 3|2 3|9 5|9 6|5 9|1 2|0 3</relation>
+<relation name="R41" arity="2" nbTuples = "40" semantics="conflicts">4 7|0 8|2 2|2 3|3 8|6 5|0 4|3 5|1 9|4 8|5 3|2 9|1 0|6 3|2 4|6 1|5 6|7 7|1 1|7 9|1 3|0 0|7 8|8 3|0 2|8 4|6 8|3 7|8 8|8 9|0 1|9 1|5 4|4 3|5 1|9 5|7 0|4 0|9 8|8 6</relation>
+<relation name="R42" arity="2" nbTuples = "40" semantics="conflicts">6 0|4 5|0 4|2 3|5 4|2 1|1 1|4 0|5 2|6 4|2 9|5 3|7 2|7 3|6 1|1 3|7 6|4 7|2 4|4 4|6 8|0 8|6 6|0 2|8 4|3 3|7 5|4 8|8 8|8 3|5 1|9 1|1 4|3 7|3 9|2 5|0 7|1 9|1 2|3 8</relation>
+<relation name="R43" arity="2" nbTuples = "40" semantics="conflicts">2 0|2 6|3 4|6 3|5 0|6 5|0 8|6 7|4 1|1 3|3 1|5 6|4 8|7 3|7 4|6 1|7 6|1 7|7 2|7 9|8 0|2 1|8 2|2 2|8 4|6 0|0 7|1 4|1 2|8 9|7 5|7 8|2 9|0 2|4 6|4 3|2 5|9 7|9 6|7 7</relation>
+<relation name="R44" arity="2" nbTuples = "40" semantics="conflicts">1 2|3 5|1 3|2 3|6 4|4 5|3 9|5 5|0 8|2 2|3 6|0 2|5 2|4 7|7 2|6 0|0 0|6 2|7 8|7 9|0 6|8 1|5 7|8 3|1 1|8 2|7 3|8 7|4 6|4 2|3 7|9 1|1 4|7 4|5 3|0 7|2 8|2 0|1 7|9 9</relation>
+<relation name="R45" arity="2" nbTuples = "40" semantics="conflicts">0 3|5 7|6 2|6 3|0 7|3 5|3 1|1 4|0 6|6 9|5 0|5 4|0 5|6 7|7 4|1 9|5 1|5 9|7 8|7 9|2 9|2 5|4 0|7 5|8 4|0 4|4 9|3 3|7 6|8 9|8 1|6 6|5 5|3 4|4 1|2 3|3 8|8 2|9 2|9 9</relation>
+<relation name="R46" arity="2" nbTuples = "40" semantics="conflicts">0 3|0 7|3 0|2 4|5 1|3 1|2 9|2 0|3 7|4 7|6 2|0 0|1 8|3 8|4 2|1 3|0 2|0 1|7 8|4 8|2 2|8 1|4 3|6 6|5 5|5 3|5 8|8 7|8 4|8 2|6 3|1 7|9 2|1 2|9 4|9 5|0 4|7 6|9 8|1 0</relation>
+<relation name="R47" arity="2" nbTuples = "40" semantics="conflicts">2 0|0 9|4 6|2 1|1 5|0 4|2 4|4 1|6 0|3 9|0 1|4 5|3 4|1 0|2 5|0 0|7 4|7 3|6 2|7 9|6 8|6 6|3 5|8 3|2 6|5 4|7 2|5 6|3 2|8 1|7 8|9 1|0 5|5 2|6 7|1 3|3 3|4 3|9 7|2 3</relation>
+<relation name="R48" arity="2" nbTuples = "40" semantics="conflicts">5 2|3 1|4 9|0 8|1 6|4 7|6 4|1 9|4 4|2 4|3 9|1 1|7 2|0 5|5 0|3 3|1 2|4 6|4 0|7 6|8 0|8 1|5 9|5 1|6 9|6 6|8 6|0 9|6 7|3 2|4 5|7 5|5 5|9 0|1 4|0 2|1 3|3 4|9 8|9 6</relation>
+<relation name="R49" arity="2" nbTuples = "40" semantics="conflicts">1 8|1 2|4 0|4 1|1 6|1 3|3 0|6 2|5 0|0 6|7 0|0 9|0 5|7 3|7 4|2 1|2 9|5 6|6 9|6 7|3 1|7 8|6 6|6 5|8 4|0 2|4 9|4 8|8 6|8 9|1 7|0 1|3 2|9 3|7 6|5 3|6 8|1 4|9 8|9 9</relation>
+<relation name="R50" arity="2" nbTuples = "40" semantics="conflicts">5 8|5 3|4 9|4 3|5 9|3 2|1 1|2 0|6 8|5 1|7 0|2 9|7 2|7 3|5 7|2 8|1 7|7 1|7 8|3 5|6 5|2 2|6 4|0 9|3 3|8 5|6 3|8 7|8 8|8 9|9 0|9 1|4 6|0 2|9 4|9 5|9 6|1 0|9 8|1 4</relation>
+<relation name="R51" arity="2" nbTuples = "40" semantics="conflicts">0 9|1 5|3 8|2 5|2 6|1 1|2 1|5 0|0 1|6 9|5 3|6 4|3 0|5 9|0 2|7 5|7 6|0 8|7 8|6 5|8 0|8 1|4 8|8 3|8 4|5 6|6 6|5 4|8 8|7 3|9 0|4 6|2 8|1 9|3 5|6 8|6 1|9 7|9 8|9 9</relation>
+<relation name="R52" arity="2" nbTuples = "40" semantics="conflicts">1 8|0 8|6 0|2 9|2 8|1 2|3 8|5 4|6 7|3 2|7 0|6 4|0 0|7 2|2 1|3 5|7 6|6 3|7 8|4 6|1 3|3 6|4 7|8 3|8 4|8 1|8 6|7 3|2 5|8 9|9 0|9 1|9 2|6 2|0 4|9 5|9 6|9 7|0 6|9 9</relation>
+<relation name="R53" arity="2" nbTuples = "40" semantics="conflicts">2 2|3 2|4 7|1 5|6 3|3 6|6 1|6 7|0 2|3 9|4 0|3 8|1 8|2 3|7 4|7 5|2 8|4 4|7 8|4 5|7 9|6 4|8 2|8 3|7 3|6 5|8 6|8 7|8 5|8 9|7 1|5 6|8 0|9 3|9 4|1 9|2 4|0 4|9 8|6 8</relation>
+<relation name="R54" arity="2" nbTuples = "40" semantics="conflicts">5 7|2 7|1 2|0 1|3 0|4 2|2 8|0 3|6 2|5 1|7 0|5 9|1 0|7 3|2 0|4 0|3 8|7 7|2 9|2 2|6 7|7 9|2 1|1 6|7 1|8 5|8 6|0 6|8 8|7 5|9 0|9 1|1 9|3 2|9 4|5 3|4 7|6 3|6 5|8 4</relation>
+<relation name="R55" arity="2" nbTuples = "40" semantics="conflicts">2 1|3 7|4 2|5 7|5 6|4 9|1 5|4 5|6 8|6 9|6 4|4 3|7 1|7 3|7 4|0 5|5 2|7 7|7 0|6 1|0 6|1 1|8 2|3 2|7 8|4 6|2 2|8 7|1 8|8 0|0 9|9 1|9 2|2 9|9 4|0 0|1 2|4 4|7 6|2 5</relation>
+<relation name="R56" arity="2" nbTuples = "40" semantics="conflicts">1 2|3 0|6 2|5 4|0 0|1 6|6 6|3 7|4 2|4 1|5 9|1 3|1 5|6 7|7 4|5 0|7 6|7 7|0 7|1 0|8 0|8 1|2 6|3 3|8 4|5 5|8 6|6 1|8 8|5 1|9 0|9 1|9 2|0 9|9 4|2 7|3 2|6 4|9 8|8 7</relation>
+<relation name="R57" arity="2" nbTuples = "40" semantics="conflicts">0 2|6 1|6 2|2 2|5 9|6 5|6 0|3 8|2 8|6 9|4 4|2 0|0 6|3 2|2 4|2 5|1 0|5 2|7 8|0 4|5 6|7 3|8 2|1 2|8 4|4 1|8 6|8 7|8 8|3 0|9 0|9 1|2 9|9 3|4 6|7 5|0 7|9 7|3 9|0 1</relation>
+<relation name="R58" arity="2" nbTuples = "40" semantics="conflicts">2 7|0 5|1 1|3 9|3 6|6 5|3 0|5 7|2 2|1 2|7 0|0 3|1 8|5 1|5 5|2 6|4 0|4 3|5 2|7 2|5 6|4 5|5 9|1 9|7 7|8 5|8 6|7 8|8 8|3 8|9 0|9 1|4 9|9 3|9 4|9 5|3 2|9 7|9 8|0 4</relation>
+<relation name="R59" arity="2" nbTuples = "40" semantics="conflicts">0 4|4 9|4 5|3 5|0 7|4 7|2 2|4 3|3 7|1 6|7 0|6 9|5 9|1 2|2 9|5 8|3 2|4 4|2 6|7 6|1 4|8 1|8 2|8 3|8 4|8 5|7 5|5 2|1 5|7 7|4 8|9 1|0 1|9 3|9 4|4 0|3 9|3 1|9 8|9 9</relation>
+<relation name="R60" arity="2" nbTuples = "40" semantics="conflicts">0 9|2 7|3 9|6 0|5 8|4 2|5 2|2 9|5 9|2 4|4 5|5 1|4 7|0 8|0 1|7 5|4 6|4 0|2 5|3 6|7 2|8 1|3 2|5 4|8 4|5 7|7 0|7 1|8 8|8 9|9 0|9 1|8 0|6 6|9 4|9 5|9 6|7 3|9 8|1 0</relation>
+<relation name="R61" arity="2" nbTuples = "40" semantics="conflicts">5 4|2 6|5 1|3 2|4 7|1 3|2 8|0 9|3 8|3 1|2 0|5 0|1 1|5 8|2 2|2 4|7 6|7 7|1 9|7 9|8 0|6 5|7 4|8 3|3 4|7 8|0 8|8 7|1 0|5 6|6 1|4 3|9 2|2 7|9 4|9 5|7 5|7 1|2 9|4 2</relation>
+<relation name="R62" arity="2" nbTuples = "40" semantics="conflicts">2 0|0 4|3 5|1 9|0 0|0 6|3 7|5 8|1 3|6 9|3 8|1 6|2 2|4 7|2 8|1 0|1 8|3 0|7 7|6 4|5 9|8 1|4 1|4 0|3 1|8 5|8 6|8 7|8 8|4 8|9 0|9 1|1 1|6 1|4 3|7 3|4 2|4 5|9 8|1 7</relation>
+<relation name="R63" arity="2" nbTuples = "40" semantics="conflicts">1 9|4 3|6 2|3 9|1 8|6 5|3 2|1 2|6 8|0 6|5 8|2 7|0 0|5 4|4 2|7 1|1 4|5 3|3 1|7 9|8 0|8 1|1 6|0 5|7 0|4 8|0 3|2 8|0 4|6 3|6 0|9 1|4 9|9 3|3 0|9 4|9 6|9 7|9 8|9 9</relation>
+<relation name="R64" arity="2" nbTuples = "40" semantics="conflicts">3 6|2 5|1 0|4 9|2 1|3 1|4 6|5 2|1 5|6 1|5 0|2 4|4 4|0 1|6 7|1 4|3 4|4 0|5 1|1 1|4 1|3 3|0 9|8 3|7 3|8 5|8 6|2 3|8 8|3 8|4 5|9 1|9 2|7 6|1 9|0 2|2 0|9 7|5 8|7 7</relation>
+<relation name="R65" arity="2" nbTuples = "40" semantics="conflicts">3 9|1 1|4 1|3 2|2 1|6 5|6 3|4 8|5 2|1 6|0 9|0 0|5 8|6 1|6 6|1 2|4 5|2 6|0 7|3 6|4 9|5 4|7 1|5 3|0 6|4 2|0 3|7 5|8 8|4 0|0 5|2 4|5 6|8 7|9 4|9 5|7 2|6 8|9 1|3 5</relation>
+<relation name="R66" arity="2" nbTuples = "40" semantics="conflicts">3 7|1 3|1 4|6 3|4 3|4 2|2 2|0 6|5 1|5 5|4 4|4 7|3 1|1 1|2 6|0 0|7 6|5 0|7 8|6 2|5 4|8 1|3 3|4 1|0 9|8 5|8 6|8 7|1 0|0 1|9 0|2 5|9 2|6 0|0 5|7 1|9 6|5 6|5 7|0 8</relation>
+<relation name="R67" arity="2" nbTuples = "40" semantics="conflicts">2 8|1 4|6 0|4 1|0 3|0 1|5 0|3 9|6 8|4 0|1 7|2 0|2 3|7 3|5 7|1 8|6 9|2 7|4 3|1 2|8 0|8 1|8 2|3 3|8 4|8 5|3 2|7 5|8 8|8 6|9 0|0 5|7 9|2 4|9 3|9 5|6 6|7 2|9 8|9 9</relation>
+<relation name="R68" arity="2" nbTuples = "40" semantics="conflicts">1 5|0 3|5 1|4 1|3 7|1 2|5 4|6 7|1 9|0 1|2 1|7 1|6 4|7 3|0 8|5 0|7 6|6 9|2 2|5 8|1 0|8 1|7 8|1 3|8 4|0 2|0 6|3 8|3 3|8 0|1 6|2 9|9 2|4 8|9 4|2 5|4 5|9 7|9 6|9 9</relation>
+<relation name="R69" arity="2" nbTuples = "40" semantics="conflicts">2 0|3 2|0 9|2 6|2 4|4 4|1 9|1 7|5 8|6 9|3 5|4 8|0 6|7 3|1 6|0 5|5 6|7 7|7 8|7 9|7 4|5 3|8 2|4 6|6 2|8 5|8 6|8 7|8 0|8 9|4 0|9 1|9 2|4 7|2 8|9 5|1 2|3 1|9 8|9 9</relation>
+<relation name="R70" arity="2" nbTuples = "40" semantics="conflicts">1 6|4 2|2 9|3 2|3 0|4 4|4 0|3 7|6 8|0 2|2 7|6 9|7 2|7 3|3 5|1 5|5 6|1 3|1 1|5 1|8 0|7 7|0 8|2 6|8 4|8 5|4 3|4 8|5 9|8 9|3 3|9 1|9 2|9 3|6 3|3 6|0 5|9 7|3 9|9 9</relation>
+<relation name="R71" arity="2" nbTuples = "40" semantics="conflicts">3 8|4 2|2 2|1 3|1 9|3 5|4 1|2 5|2 1|3 1|7 0|2 3|4 6|6 6|6 2|4 9|2 7|2 8|1 6|6 9|7 6|5 8|7 4|6 8|2 9|8 5|8 6|0 0|8 8|0 3|9 0|7 9|5 2|9 3|4 0|2 4|8 1|9 7|9 4|9 8</relation>
+<relation name="R72" arity="2" nbTuples = "40" semantics="conflicts">5 8|0 8|5 1|6 1|5 2|5 6|6 4|2 1|1 2|6 5|4 6|7 1|2 4|7 3|7 4|7 5|6 9|0 0|7 8|3 9|0 2|8 1|7 7|4 3|3 0|8 5|8 6|8 7|3 1|6 2|2 2|9 1|9 2|9 3|9 4|8 0|1 9|9 7|4 7|9 9</relation>
+<relation name="R73" arity="2" nbTuples = "40" semantics="conflicts">5 6|1 2|1 5|6 3|0 9|4 7|5 2|0 6|2 0|0 4|6 5|5 7|6 0|3 5|7 4|4 8|7 6|5 0|7 8|7 9|4 0|8 1|4 2|8 3|8 4|1 9|1 4|2 1|7 7|0 2|3 8|9 1|2 7|7 3|2 5|2 2|9 6|1 3|5 3|9 9</relation>
+<relation name="R74" arity="2" nbTuples = "40" semantics="conflicts">0 8|1 2|5 5|4 1|2 0|4 8|0 1|6 7|6 8|4 0|2 8|0 4|7 2|1 7|5 0|3 5|4 5|1 0|1 8|3 6|6 4|8 1|6 3|1 9|8 4|3 3|8 6|3 8|3 9|4 6|3 4|5 3|7 5|9 0|7 0|5 1|9 6|0 2|9 8|9 2</relation>
+<relation name="R75" arity="2" nbTuples = "40" semantics="conflicts">6 0|1 9|4 6|0 9|3 6|4 1|5 0|0 7|6 2|6 9|6 6|7 1|2 2|3 7|3 5|1 2|5 6|4 3|3 8|5 8|7 5|8 1|0 8|3 2|5 1|1 6|7 6|4 5|8 8|8 9|9 0|4 9|6 4|9 3|4 8|9 5|9 6|2 9|9 8|9 9</relation>
+</relations>
+
+<constraints nbConstraints="76">
+<constraint name="C43" arity="2" scope = "V2 V9" reference="R0"/>
+<constraint name="C62" arity="2" scope = "V3 V12" reference="R1"/>
+<constraint name="C10" arity="2" scope = "V0 V11" reference="R2"/>
+<constraint name="C2" arity="2" scope = "V0 V3" reference="R3"/>
+<constraint name="C57" arity="2" scope = "V3 V7" reference="R4"/>
+<constraint name="C83" arity="2" scope = "V4 V18" reference="R5"/>
+<constraint name="C32" arity="2" scope = "V1 V15" reference="R6"/>
+<constraint name="C38" arity="2" scope = "V2 V4" reference="R7"/>
+<constraint name="C86" arity="2" scope = "V5 V7" reference="R8"/>
+<constraint name="C123" arity="2" scope = "V7 V19" reference="R9"/>
+<constraint name="C113" arity="2" scope = "V7 V9" reference="R10"/>
+<constraint name="C68" arity="2" scope = "V3 V18" reference="R11"/>
+<constraint name="C52" arity="2" scope = "V2 V18" reference="R12"/>
+<constraint name="C15" arity="2" scope = "V0 V16" reference="R13"/>
+<constraint name="C128" arity="2" scope = "V8 V13" reference="R14"/>
+<constraint name="C29" arity="2" scope = "V1 V12" reference="R15"/>
+<constraint name="C130" arity="2" scope = "V8 V15" reference="R16"/>
+<constraint name="C92" arity="2" scope = "V5 V13" reference="R17"/>
+<constraint name="C19" arity="2" scope = "V1 V2" reference="R18"/>
+<constraint name="C133" arity="2" scope = "V8 V18" reference="R19"/>
+<constraint name="C14" arity="2" scope = "V0 V15" reference="R20"/>
+<constraint name="C115" arity="2" scope = "V7 V11" reference="R21"/>
+<constraint name="C100" arity="2" scope = "V6 V8" reference="R22"/>
+<constraint name="C28" arity="2" scope = "V1 V11" reference="R23"/>
+<constraint name="C34" arity="2" scope = "V1 V17" reference="R24"/>
+<constraint name="C139" arity="2" scope = "V9 V14" reference="R25"/>
+<constraint name="C122" arity="2" scope = "V7 V18" reference="R26"/>
+<constraint name="C22" arity="2" scope = "V1 V5" reference="R27"/>
+<constraint name="C142" arity="2" scope = "V9 V17" reference="R28"/>
+<constraint name="C61" arity="2" scope = "V3 V11" reference="R29"/>
+<constraint name="C56" arity="2" scope = "V3 V6" reference="R30"/>
+<constraint name="C58" arity="2" scope = "V3 V8" reference="R31"/>
+<constraint name="C141" arity="2" scope = "V9 V16" reference="R32"/>
+<constraint name="C24" arity="2" scope = "V1 V7" reference="R33"/>
+<constraint name="C148" arity="2" scope = "V10 V14" reference="R34"/>
+<constraint name="C1" arity="2" scope = "V0 V2" reference="R35"/>
+<constraint name="C137" arity="2" scope = "V9 V12" reference="R36"/>
+<constraint name="C45" arity="2" scope = "V2 V11" reference="R37"/>
+<constraint name="C41" arity="2" scope = "V2 V7" reference="R38"/>
+<constraint name="C153" arity="2" scope = "V10 V19" reference="R39"/>
+<constraint name="C31" arity="2" scope = "V1 V14" reference="R40"/>
+<constraint name="C155" arity="2" scope = "V11 V13" reference="R41"/>
+<constraint name="C156" arity="2" scope = "V11 V14" reference="R42"/>
+<constraint name="C79" arity="2" scope = "V4 V14" reference="R43"/>
+<constraint name="C120" arity="2" scope = "V7 V16" reference="R44"/>
+<constraint name="C89" arity="2" scope = "V5 V10" reference="R45"/>
+<constraint name="C160" arity="2" scope = "V11 V18" reference="R46"/>
+<constraint name="C108" arity="2" scope = "V6 V16" reference="R47"/>
+<constraint name="C60" arity="2" scope = "V3 V10" reference="R48"/>
+<constraint name="C121" arity="2" scope = "V7 V17" reference="R49"/>
+<constraint name="C158" arity="2" scope = "V11 V16" reference="R50"/>
+<constraint name="C47" arity="2" scope = "V2 V13" reference="R51"/>
+<constraint name="C4" arity="2" scope = "V0 V5" reference="R52"/>
+<constraint name="C96" arity="2" scope = "V5 V17" reference="R53"/>
+<constraint name="C168" arity="2" scope = "V12 V19" reference="R54"/>
+<constraint name="C112" arity="2" scope = "V7 V8" reference="R55"/>
+<constraint name="C166" arity="2" scope = "V12 V17" reference="R56"/>
+<constraint name="C88" arity="2" scope = "V5 V9" reference="R57"/>
+<constraint name="C63" arity="2" scope = "V3 V13" reference="R58"/>
+<constraint name="C172" arity="2" scope = "V13 V17" reference="R59"/>
+<constraint name="C6" arity="2" scope = "V0 V7" reference="R60"/>
+<constraint name="C109" arity="2" scope = "V6 V17" reference="R61"/>
+<constraint name="C176" arity="2" scope = "V14 V16" reference="R62"/>
+<constraint name="C98" arity="2" scope = "V5 V19" reference="R63"/>
+<constraint name="C178" arity="2" scope = "V14 V18" reference="R64"/>
+<constraint name="C73" arity="2" scope = "V4 V8" reference="R65"/>
+<constraint name="C117" arity="2" scope = "V7 V13" reference="R66"/>
+<constraint name="C181" arity="2" scope = "V15 V17" reference="R67"/>
+<constraint name="C170" arity="2" scope = "V13 V15" reference="R68"/>
+<constraint name="C183" arity="2" scope = "V15 V19" reference="R69"/>
+<constraint name="C49" arity="2" scope = "V2 V15" reference="R70"/>
+<constraint name="C185" arity="2" scope = "V16 V18" reference="R71"/>
+<constraint name="C186" arity="2" scope = "V16 V19" reference="R72"/>
+<constraint name="C69" arity="2" scope = "V3 V19" reference="R73"/>
+<constraint name="C97" arity="2" scope = "V5 V18" reference="R74"/>
+<constraint name="C189" arity="2" scope = "V18 V19" reference="R75"/>
+</constraints>
+</instance>

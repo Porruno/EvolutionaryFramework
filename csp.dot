@@ -1,0 +1,70 @@
+graph ""{ 
+# node[fontsize=10,width=".2".height=".2", margin=0]; 
+# graph[fontsize=8];
+label=""
+subgraph cluster0{
+
+n00 ;
+n00 [label="variableFromVariableValue"] ;
+n01 [label="largest"] ;
+n02 [label="multiplication"] ;
+n03 [label="plus"] ;
+n04 [label="multiplication"] ;
+n05 [label="multiplication"] ;
+n06 [label="fdeg"] ;
+n05 -- n06 ;
+n07 [label="fdeg"] ;
+n05 -- n07 ;
+n04 -- n05 ;
+n08 [label="log2"] ;
+n09 [label="fbz"] ;
+n08 -- n09 ;
+n04 -- n08 ;
+n03 -- n04 ;
+n010 [label="multiplication"] ;
+n011 [label="multiplication"] ;
+n012 [label="bdeg"] ;
+n011 -- n012 ;
+n010 -- n011 ;
+n013 [label="multiplication"] ;
+n014 [label="bdeg"] ;
+n013 -- n014 ;
+n015 [label="bdeg"] ;
+n013 -- n015 ;
+n010 -- n013 ;
+n03 -- n010 ;
+n02 -- n03 ;
+n016 [label="plus"] ;
+n017 [label="plus"] ;
+n018 [label="multiplication"] ;
+n019 [label="bdeg"] ;
+n018 -- n019 ;
+n020 [label="conflicts"] ;
+n018 -- n020 ;
+n017 -- n018 ;
+n021 [label="multiplication"] ;
+n022 [label="bdeg"] ;
+n021 -- n022 ;
+n023 [label="fdeg"] ;
+n021 -- n023 ;
+n017 -- n021 ;
+n016 -- n017 ;
+n024 [label="plus"] ;
+n025 [label="multiplication"] ;
+n026 [label="conflicts"] ;
+n025 -- n026 ;
+n027 [label="conflicts"] ;
+n025 -- n027 ;
+n024 -- n025 ;
+n028 [label="multiplication"] ;
+n029 [label="bdeg"] ;
+n028 -- n029 ;
+n030 [label="bbz"] ;
+n028 -- n030 ;
+n024 -- n028 ;
+n016 -- n024 ;
+n02 -- n016 ;
+n01 -- n02 ;
+n00 -- n01 ;
+}
+}

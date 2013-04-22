@@ -1,0 +1,46 @@
+graph ""{ 
+# node[fontsize=10,width=".2".height=".2", margin=0]; 
+# graph[fontsize=8];
+label=""
+subgraph cluster0{
+
+n00 ;
+n00 [label="null = 12.52728908854946"] ;
+n01 [label="substraction = 12.52728908854946"] ;
+n02 [label="addition = 15.0"] ;
+n03 [label="x = 3"] ;
+n02 -- n03 ;
+n04 [label="multiplication = 12.0"] ;
+n05 [label="substraction = 2.0"] ;
+n06 [label="x = 3"] ;
+n05 -- n06 ;
+n07 [label="one = 1.0"] ;
+n05 -- n07 ;
+n04 -- n05 ;
+n08 [label="addition = 6.0"] ;
+n09 [label="x = 3"] ;
+n08 -- n09 ;
+n010 [label="x = 3"] ;
+n08 -- n010 ;
+n04 -- n08 ;
+n02 -- n04 ;
+n01 -- n02 ;
+n011 [label="multiplication = 2.4727109114505397"] ;
+n012 [label="sin = 0.4121184852417566"] ;
+n013 [label="multiplication = 9.0"] ;
+n014 [label="x = 3"] ;
+n013 -- n014 ;
+n015 [label="x = 3"] ;
+n013 -- n015 ;
+n012 -- n013 ;
+n011 -- n012 ;
+n016 [label="addition = 6.0"] ;
+n017 [label="x = 3"] ;
+n016 -- n017 ;
+n018 [label="x = 3"] ;
+n016 -- n018 ;
+n011 -- n016 ;
+n01 -- n011 ;
+n00 -- n01 ;
+}
+}

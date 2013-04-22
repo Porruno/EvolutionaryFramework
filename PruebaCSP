@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<instance>
+<presentation maxConstraintArity="2" format="XCSP 2.1" type="CSP"/>
+
+<domains nbDomains="3">
+<domain name="D0" nbValues="3">0 1 2</domain>
+<domain name="D1" nbValues="3">0 1 2</domain>
+<domain name="D2" nbValues="3">0 1 2</domain>
+</domains>
+
+<variables nbVariables="3">
+<variable name="V0" domain="D0"/>
+<variable name="V1" domain="D1"/>
+<variable name="V2" domain="D2"/>
+</variables>
+
+<relations nbRelations="2">
+<relation name="R0" arity="2" nbTuples = "4" semantics="conflicts">0 0|2 0|0 1|1 2</relation>
+<relation name="R1" arity="2" nbTuples = "4" semantics="conflicts">1 2|0 0|0 1|2 0</relation>
+</relations>
+
+<constraints nbConstraints="2">
+<constraint name="C0" arity="2" scope = "V0 V1" reference="R0"/>
+<constraint name="C2" arity="2" scope = "V1 V2" reference="R1"/>
+</constraints>
+</instance>

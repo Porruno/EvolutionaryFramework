@@ -1,0 +1,26 @@
+graph ""{ 
+# node[fontsize=10,width=".2".height=".2", margin=0]; 
+# graph[fontsize=8];
+label=""
+subgraph cluster0{
+
+n00 ;
+n00 [label="ADF:0 = false"] ;
+n01 [label="compoundName = Jesus Anacleto"] ;
+n00 -- n01 ;
+}subgraph cluster1{
+
+n10 ;
+n10 [label="greaterThan"] ;
+n11 [label="addition"] ;
+n12 [label="six"] ;
+n11 -- n12 ;
+n13 [label="three"] ;
+n11 -- n13 ;
+n10 -- n11 ;
+n14 [label="length"] ;
+n15 [label="getFirstParameterFromADFInput"] ;
+n14 -- n15 ;
+n10 -- n14 ;
+}
+}
