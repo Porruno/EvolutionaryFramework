@@ -1,0 +1,4 @@
+<algorithms>
+ 	<algorithm variableOrdering = "1" valueOrdering = "2" branchingScheme = "0"/>
+	<algorithm variableOrdering = "1" valueOrdering = "2" branchingScheme = "0"/>
+</algorithms>
